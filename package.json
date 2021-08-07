@@ -8,7 +8,11 @@
     "start": "cross-env NODE_ENV=production node server",
     "dev": "nodemon server"
   },
-  "keywords": ["recipe", "cooking", "social"],
+  "keywords": [
+    "recipe",
+    "cooking",
+    "social"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -16,8 +20,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.13.5",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.12"
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
@@ -26,6 +29,7 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12"
   }
 }
